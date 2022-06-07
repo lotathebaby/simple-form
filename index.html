@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title>Survey Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8"/>
+  <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+      <header>
+          <div class="head">
+
+          </div>
+      </header>
+      <h2 class="reg">
+          Registration
+      </h2>
+      <form id="form" action="https://register.demo.uk.org">
+         <div class="all">
+        <div class="one">
+          <p class="full">
+              Full name <br>
+              <label id="name-label"> 
+                  <input id="name" type="text" name="fname" placeholder="Enter your name"/>
+              </label>
+          </p>
+          <p class="mail">
+            Email<br> 
+            <label id="mail-label"> 
+                <input id="email" type="text" name="email" placeholder="Enter your email"/>
+            </label>
+        </p>
+        <p class="password">
+            Password <br>
+            <label id="password-label"> 
+                <input id="password" type="password" name="pass" placeholder="Enter your password"/>
+            </label>
+        </p>
+        </div>
+        <div class="two">
+        <p class="username">
+            Username <br>
+            <label id="user-label"> 
+                <input id="user" type="text" name="username" placeholder="Enter your username"/>
+            </label>
+        </p>
+        <p class="number">
+            Phone Number <br>
+            <label id="number-label"> 
+                <input id="number" type="number" name="number" placeholder="Enter your number"/>
+            </label>
+        </p>
+        <p class="confirm">
+            Confirm Password <br>
+            <label id="password-label"> 
+                <input id="password" type="password" name="pass" placeholder="Confirm your password"/>
+            </label>
+        </p>
+        </div>
+        </div>
+        <div class="gender">
+            <p class="gend">
+                Gender
+            </p>
+            <label>
+                <input id="male" type="radio" name="gender" value="male"/> Male
+            </label>
+            <label>
+                <input id="female" type="radio" name="gender" value="female"/> Female
+            </label>
+            <label>
+                <input id="prefer" type="radio" name="gender" value="prefer"/> Prefer Not to Say
+            </label>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Register"/>
+        </div>
+      </form>
+      <div class="last">
+          
+      </div>
+    </body>
+</html>
